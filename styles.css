@@ -3,6 +3,7 @@ body, html {
     padding: 0;
     height: 100%;
     overflow: hidden;
+    font-family: 'Roboto', sans-serif;
 }
 
 .container {
@@ -22,7 +23,7 @@ body, html {
     width: auto;
     height: auto;
     z-index: -1;
-    filter: blur(10px) opacity(0.5);
+    /* filter: blur(10px) opacity(0.5); */
 }
 
 .content {
@@ -33,6 +34,9 @@ body, html {
     text-align: center;
     z-index: 1;
     color: white;
+    display: grid;
+    /* gap: 4em;
+    margin-bottom: 2em; */
 }
 
 @media (max-width: 768px) {
